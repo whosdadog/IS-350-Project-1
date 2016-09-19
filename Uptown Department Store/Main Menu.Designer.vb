@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class MainMenu
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainMenu))
         Me.Logo = New System.Windows.Forms.PictureBox()
         Me.Separator_Line = New System.Windows.Forms.Label()
         Me.CustName = New System.Windows.Forms.Label()
@@ -49,9 +49,10 @@ Partial Class Form1
         'Logo
         '
         Me.Logo.Image = CType(resources.GetObject("Logo.Image"), System.Drawing.Image)
-        Me.Logo.Location = New System.Drawing.Point(12, -3)
+        Me.Logo.Location = New System.Drawing.Point(12, -2)
+        Me.Logo.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Logo.Name = "Logo"
-        Me.Logo.Size = New System.Drawing.Size(504, 93)
+        Me.Logo.Size = New System.Drawing.Size(504, 94)
         Me.Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Logo.TabIndex = 0
         Me.Logo.TabStop = False
@@ -96,7 +97,7 @@ Partial Class Form1
         'CustomerPhone
         '
         Me.CustomerPhone.AutoSize = True
-        Me.CustomerPhone.Location = New System.Drawing.Point(19, 205)
+        Me.CustomerPhone.Location = New System.Drawing.Point(19, 206)
         Me.CustomerPhone.Name = "CustomerPhone"
         Me.CustomerPhone.Size = New System.Drawing.Size(101, 16)
         Me.CustomerPhone.TabIndex = 5
@@ -115,6 +116,7 @@ Partial Class Form1
         'CNameInput
         '
         Me.CNameInput.Location = New System.Drawing.Point(127, 103)
+        Me.CNameInput.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CNameInput.Name = "CNameInput"
         Me.CNameInput.Size = New System.Drawing.Size(389, 22)
         Me.CNameInput.TabIndex = 7
@@ -122,6 +124,7 @@ Partial Class Form1
         'CAddressInput
         '
         Me.CAddressInput.Location = New System.Drawing.Point(127, 134)
+        Me.CAddressInput.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CAddressInput.Name = "CAddressInput"
         Me.CAddressInput.Size = New System.Drawing.Size(389, 22)
         Me.CAddressInput.TabIndex = 8
@@ -129,6 +132,7 @@ Partial Class Form1
         'CCityInput
         '
         Me.CCityInput.Location = New System.Drawing.Point(127, 170)
+        Me.CCityInput.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CCityInput.Name = "CCityInput"
         Me.CCityInput.Size = New System.Drawing.Size(210, 22)
         Me.CCityInput.TabIndex = 9
@@ -136,6 +140,7 @@ Partial Class Form1
         'CStateInput
         '
         Me.CStateInput.Location = New System.Drawing.Point(344, 170)
+        Me.CStateInput.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CStateInput.Name = "CStateInput"
         Me.CStateInput.Size = New System.Drawing.Size(49, 22)
         Me.CStateInput.TabIndex = 10
@@ -143,20 +148,23 @@ Partial Class Form1
         'CZipInput
         '
         Me.CZipInput.Location = New System.Drawing.Point(400, 170)
+        Me.CZipInput.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CZipInput.Name = "CZipInput"
         Me.CZipInput.Size = New System.Drawing.Size(116, 22)
         Me.CZipInput.TabIndex = 11
         '
         'CPhoneInput
         '
-        Me.CPhoneInput.Location = New System.Drawing.Point(127, 205)
+        Me.CPhoneInput.Location = New System.Drawing.Point(127, 206)
+        Me.CPhoneInput.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.CPhoneInput.Name = "CPhoneInput"
         Me.CPhoneInput.Size = New System.Drawing.Size(210, 22)
         Me.CPhoneInput.TabIndex = 12
         '
         'Shoes
         '
-        Me.Shoes.Location = New System.Drawing.Point(28, 264)
+        Me.Shoes.Location = New System.Drawing.Point(28, 263)
+        Me.Shoes.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Shoes.Name = "Shoes"
         Me.Shoes.Size = New System.Drawing.Size(125, 85)
         Me.Shoes.TabIndex = 13
@@ -165,7 +173,8 @@ Partial Class Form1
         '
         'Handbags
         '
-        Me.Handbags.Location = New System.Drawing.Point(159, 264)
+        Me.Handbags.Location = New System.Drawing.Point(159, 263)
+        Me.Handbags.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Handbags.Name = "Handbags"
         Me.Handbags.Size = New System.Drawing.Size(125, 85)
         Me.Handbags.TabIndex = 14
@@ -174,7 +183,8 @@ Partial Class Form1
         '
         'Jeans
         '
-        Me.Jeans.Location = New System.Drawing.Point(290, 264)
+        Me.Jeans.Location = New System.Drawing.Point(290, 263)
+        Me.Jeans.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Jeans.Name = "Jeans"
         Me.Jeans.Size = New System.Drawing.Size(125, 85)
         Me.Jeans.TabIndex = 15
@@ -183,7 +193,8 @@ Partial Class Form1
         '
         'About
         '
-        Me.About.Location = New System.Drawing.Point(290, 355)
+        Me.About.Location = New System.Drawing.Point(290, 354)
+        Me.About.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.About.Name = "About"
         Me.About.Size = New System.Drawing.Size(125, 85)
         Me.About.TabIndex = 18
@@ -192,7 +203,8 @@ Partial Class Form1
         '
         'Checkout
         '
-        Me.Checkout.Location = New System.Drawing.Point(159, 355)
+        Me.Checkout.Location = New System.Drawing.Point(159, 354)
+        Me.Checkout.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Checkout.Name = "Checkout"
         Me.Checkout.Size = New System.Drawing.Size(125, 85)
         Me.Checkout.TabIndex = 17
@@ -201,7 +213,8 @@ Partial Class Form1
         '
         'Broadway
         '
-        Me.Broadway.Location = New System.Drawing.Point(28, 355)
+        Me.Broadway.Location = New System.Drawing.Point(28, 354)
+        Me.Broadway.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Broadway.Name = "Broadway"
         Me.Broadway.Size = New System.Drawing.Size(125, 85)
         Me.Broadway.TabIndex = 16
@@ -210,17 +223,19 @@ Partial Class Form1
         '
         'Quit
         '
-        Me.Quit.Location = New System.Drawing.Point(422, 264)
+        Me.Quit.Location = New System.Drawing.Point(422, 263)
+        Me.Quit.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Quit.Name = "Quit"
         Me.Quit.Size = New System.Drawing.Size(74, 176)
         Me.Quit.TabIndex = 19
         Me.Quit.Text = "Quit"
         Me.Quit.UseVisualStyleBackColor = True
         '
-        'Form1
+        'MainMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.PaleTurquoise
         Me.ClientSize = New System.Drawing.Size(528, 464)
         Me.Controls.Add(Me.Quit)
         Me.Controls.Add(Me.About)
@@ -242,7 +257,9 @@ Partial Class Form1
         Me.Controls.Add(Me.Logo)
         Me.Controls.Add(Me.Separator_Line)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Form1"
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Name = "MainMenu"
         Me.Text = "Main Menu"
         CType(Me.Logo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
